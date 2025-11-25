@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "G-Pal",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "16": "public/16.png",
+    "32": "public/32.png",
+    "48": "public/48.png",
+    "128": "public/128.png"
+  }
+}
