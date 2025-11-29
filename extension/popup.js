@@ -40,7 +40,7 @@ async function sendMessage(text) {
 
   const data = await res.json();
   console.log("Backend replied:", data);
-  addMessage("G-Pal", data.reply); // for chatbot like feature
+  addMessage("G-Pal", data.reply);
   return data.reply;
 }
 
